@@ -31,7 +31,7 @@ header {
 
     .logo {
         position: relative;
-        color: #000;
+        color: #fff;
         font-size: 30px;
         text-decoration: none;
         text-transform: uppercase;
@@ -41,12 +41,14 @@ header {
 
     .navigation {
         a {
-            color: #000;
+            color: #fff;
             text-decoration: none;
             font-weight: 500;
             letter-spacing: 1px;
             padding: 2px 15px;
             border-radius: 20px;
+            transition: 0.8s;
+            transition-property: background;
         }
 
         a:not(:last-child) {
@@ -55,6 +57,31 @@ header {
 
         a:hover {
             background: #fff;
+            color: #000;
+        }
+    }
+}
+
+.content {
+    max-width: 650px;
+    margin: 60px 100px;
+
+    .info {
+        text-align: right;
+        float: left;
+        a {
+            color: #fff;
+            font-size: 30px;
+            text-decoration: none;
+            border-radius: 20px;
+            padding: 2px 15px;
+            transition: 0.8s;
+            transition-property: background;
+        }
+
+        a:hover {
+            background: #fff;
+            color: #000;
         }
     }
 }
