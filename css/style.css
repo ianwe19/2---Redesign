@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Monaco", sans-serif;
+  font-family: "Gabarito", sans-serif;
+  font-weight: 400;
 }
 
 section {
@@ -29,10 +30,13 @@ header {
 header .logo {
   position: relative;
   color: #fff;
+  font-family: "Sixtyfour", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "BLED" 0, "SCAN" -21;
   font-size: 30px;
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 header .navigation a {
@@ -73,4 +77,11 @@ header .navigation a:hover {
 .content .info a:hover {
   background: #fff;
   color: #000;
+}
+
+.hosanna {
+  position: fixed;
+  size: 300%;
+  bottom: -25%;
+  right: 8%;
 }/*# sourceMappingURL=style.css.map */
